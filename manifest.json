@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Color Preview",
+  "version": "1.0",
+  "description": "Webページ上のカラーコード（#HEX）の横に自動で色見本を表示します。",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["app.js"]
+    }
+  ]
+}
